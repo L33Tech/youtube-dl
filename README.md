@@ -1,3 +1,16 @@
+# Patched youtube-dl for sinus bot
+
+## Problem and Patch
+
+youtube-dl's youtube extractor recently was refactored and, as a side-effect, now outputs the `adr` as a float.
+However, sinusbot expects that value as an integer.
+Consequently, this forks adds a single cast and makes youtube-dl work again with sinusbot.
+
+## Installation
+
+Just build this version of youtube-dl with `make youtube-dl`, fix owner (`chown sinusbot:sinusbot youtube-dl`) if needed, and replace your previous `youtube-dl` binary.
+
+
 [![Build Status](https://github.com/ytdl-org/youtube-dl/workflows/CI/badge.svg)](https://github.com/ytdl-org/youtube-dl/actions?query=workflow%3ACI)
 
 
