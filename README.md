@@ -1,4 +1,4 @@
-# Patched youtube-dl for sinus bot
+# Patched youtube-dl for SinusBot
 
 ## Problem and Patch
 
