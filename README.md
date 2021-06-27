@@ -1,4 +1,4 @@
-# Patched youtube-dl for sinus bot
+# Patched youtube-dl for SinusBot
 
 ## Problem and Patch
 
@@ -9,6 +9,8 @@ Consequently, this forks adds a single cast and makes youtube-dl work again with
 ## Installation
 
 Just build this version of youtube-dl with `make youtube-dl`, fix owner (`chown sinusbot:sinusbot youtube-dl`) if needed, and replace your previous `youtube-dl` binary.
+
+Windows Build: https://github.com/ytdl-org/youtube-dl/issues/10014#issuecomment-472695214
 
 
 [![Build Status](https://github.com/ytdl-org/youtube-dl/workflows/CI/badge.svg)](https://github.com/ytdl-org/youtube-dl/actions?query=workflow%3ACI)
